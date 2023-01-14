@@ -1,5 +1,5 @@
-import * as anchor from '@project-serum/anchor';
-import { AnchorProvider, BN, Idl, Program } from '@project-serum/anchor';
+import * as anchor from '@coral-xyz/anchor';
+import { AnchorProvider, BN, Idl, Program } from '@coral-xyz/anchor';
 import { Connection, Keypair, PublicKey, SystemProgram } from '@solana/web3.js';
 import { AccountInfo, TOKEN_PROGRAM_ID } from '@solana/spl-token';
 import { AccountUtils, isKp, stringifyPKsAndBNs } from '../prog-common';

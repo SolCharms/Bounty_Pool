@@ -3,7 +3,7 @@ import { Connection, Keypair, PublicKey } from "@solana/web3.js";
 // import * as SPLToken from "@solana/spl-token";
 import { default as fs } from 'fs/promises';
 import { default as yargs } from 'yargs';
-import * as anchor from '@project-serum/anchor';
+import * as anchor from '@coral-xyz/anchor';
 import { IDL as BountyPoolIDL } from '../types/bounty_pool';
 import { BOUNTY_POOL_PROG_ID } from '../index';
 import { stringifyPKsAndBNs } from '../prog-common';

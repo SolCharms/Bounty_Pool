@@ -1,4 +1,4 @@
-import { BN } from '@project-serum/anchor';
+import { BN } from '@coral-xyz/anchor';
 import { Keypair, PublicKey } from '@solana/web3.js';
 
 //todo need to write tests for functions in this file

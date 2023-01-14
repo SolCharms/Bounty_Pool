@@ -1,4 +1,4 @@
-import * as anchor from '@project-serum/anchor';
+import * as anchor from '@coral-xyz/anchor';
 import {
     Connection,
     Keypair,
@@ -7,7 +7,7 @@ import {
     SystemProgram,
     Transaction,
 } from '@solana/web3.js';
-import { BN } from '@project-serum/anchor';
+import { BN } from '@coral-xyz/anchor';
 import { AccountUtils, ITokenData } from './account-utils';
 import { NATIVE_MINT, Token, TOKEN_PROGRAM_ID } from '@solana/spl-token';
 

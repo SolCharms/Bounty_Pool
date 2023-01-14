@@ -36,7 +36,7 @@ export class AccountUtils {
         return s;
       }
     });
-    return await PublicKey.findProgramAddress(seed_bytes, programId);
+    return PublicKey.findProgramAddressSync(seed_bytes, programId);
   }
 
   // --------------------------------------- Get Solana Balances - Program Accounts
